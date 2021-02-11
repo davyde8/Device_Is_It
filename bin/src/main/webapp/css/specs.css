@@ -1,0 +1,23 @@
+
+
+
+
+.container{
+	margin-top:1%;
+	margin-bottom: 2%;
+}
+
+.card{
+	margin-top:50px; 
+}
+.inner{
+	overflow: hidden;
+	
+}
+.inner img{
+	trasformation: all 1.5s ease;
+	border-top:105px;
+}
+.inner:hover img{
+	trasform: scale(1.5);
+}

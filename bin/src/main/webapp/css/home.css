@@ -1,0 +1,133 @@
+#logo{
+	font-family: 'Kaushan Script', cursive; 
+	color:#fec503;
+	font-size: 30px;
+	margin-right: 15px;
+	text-decoration: none;	
+}
+
+.body_header{
+  background-image: url("/images/sfondoHome.jpg");
+  background-size: cover;
+  color:#fec503;
+  font-style: italic;
+  font-family: 'Montserrat', sans-serif;
+  border-left: 6px solid #fec503;
+  height: 350px;
+}
+
+#text_head,h1{
+	font-size: 55px;
+	padding-top:50px;
+	padding-right:50px;	
+	text-shadow: -1px 0 #fec503, 0 1px #fec503, 1px 0 #fec503, 0 -1px #fec503;
+}
+
+#text_head,h2{
+	font-size: 45px;
+	font-family: Droid Serif;
+	color:white;
+	text-shadow: -1px 0 #ffffff, 0 1px #ffffff, 1px 0 #ffffff, 0 -1px #ffffff;
+}
+
+body {
+  background: linear-gradient(to right, #ffe084, #fff5d7);
+}
+
+#funfa{
+	height: 900px;
+	color: white;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #fec503;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+	background-color: #ffffff;
+}
+
+#loginIcon{
+	color: #ffffff;
+}
+#loginForm{
+	padding-top:4.2rem;
+	padding-bottom:4.2rem;
+}
+
+.titolo-loginForm{
+	font-family: 'Kaushan Script', cursive; 
+	color:#fec503;
+}
+.myform{
+	position: relative;
+	display: -ms-flexbox;
+	display: flex;
+	padding: 1rem;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	width: 100%;
+	pointer-events: auto;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid rgba(0,0,0,.2);
+	border-radius: 1.1rem;
+	outline: 0;
+	max-width: 500px;
+}
+.tx-tfm{
+	text-transform:uppercase;
+}
+.mybtn{
+	border-radius:50px;
+}
+
+.login-or {
+	position: relative;
+	color: #aaa;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.span-or {
+	display: block;
+	position: absolute;
+	left: 50%;
+	top: -2px;
+	margin-left: -25px;
+	background-color: #fff;
+	width: 50px;
+	text-align: center;
+}
+.hr-or {
+	height: 1px;
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+}
+.google {
+	color:#666;
+	width:100%;
+	height:40px;
+	text-align:center;
+	outline:none;
+	border: 1px solid lightgrey;
+}
+ form .error {
+	color: #ff0000;
+}
+#second{
+	display:none;
+}
