@@ -1,5 +1,13 @@
 # Device_is_it
 
+Device Is It è un sito web che si occupa di recensire e pubblicare articoli riguardanti dispositivi elettronici. L’obiettivo principale del sito è quello di fornire ai suoi visitatori un’idea di quali siano i dispositivi presenti sul mercato, delle loro caratteristiche e di come questi possano, attraverso le loro funzionalità, migliorare la quotidianità di un individuo. 
+
+Il sito offre ai visitatori la possibilità di leggere schede tecniche, recensioni e articoli riguardanti dispositivi elettronici. Il sito offre, inoltre, la possibilità di registrarsi per poter usufruire di funzioni più particolari, quali: la possibilità di commentare, valutare un contenuto e condividerlo, di effettuare la ricerca di contenuti riguardanti un particolare dispositivo utilizzando la barra di ricerca presente nel sito. Inoltre, un utente registrato, può sottoscriversi alla Newsletter per ricevere aggiornamenti riguardo l’aggiunta di nuovi contenuti all’interno del sito e può, qualora desiderasse farlo, modificare le informazioni riguardanti il proprio profilo inserite al momento dell’iscrizione.
+
+Nel sito è presente anche un tipo particolare di utente, quello dell’amministratore:
+egli, oltre le funzioni di un utente registrato comune, ha la possibilità di usufruire di funzionalità aggiuntive come la creazione e la pubblicazione di un nuovo contenuto, la modifica o l’eliminazione di un contenuto già presente nella piattaforma. L’utente amministratore può, ancora, moderare e rispondere ai commenti pubblicati da altri utenti. 
+L’utente amministratore, inoltre, ha accesso alle informazioni degli utenti registrati (ad esclusione della password) e può decidere, qualora lo ritenesse necessario, di bloccare o di eliminare definitivamente il profilo di un utente, impedendogli di utilizzare le funzioni sopra elencate. Sotto richiesta esplicita di un utente, l’amministratore può modificare i dati inseriti dall’utente al momento dell’iscrizione, ad esclusione della password che , invece, sarà generata automaticamente e sarà sconosciuta all’amministratore.
+
 
 Ecco alcune immagini:
 ![alt text](https://i.ibb.co/7jH1kJW/Schermata-2021-01-25-alle-22-59-26.png)
