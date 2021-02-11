@@ -1,0 +1,43 @@
+Account amministratore per gestire utenti e contenuti:
+email: admin@admin.it  
+password: admin
+
+Fasi da seguire per importare il database in caso di problemi durante l'esecuzione:
+
+1) Eliminare il database già presente sul progetto (verrà aggiunto nuovamente nei passaggi successivi)
+2) Crea una nuova cartella chiamata "postgresDB" sul progetto
+3) Apri Docker e lanciare un'immagine Postgres sulla porta 5432 caricando come volume la cartella creata al passo precedente
+
+ esempio del codice da eseguire ( sostituire "pathTuaCartella" con il path della cartella creata al punto 1)
+
+ docker run --rm --name pg-docker_device_is_it  -e POSTGRES_PASSWORD=postgres -d -p 5432:5432 -v "pathTuaCartella":/var/lib/postgresql/data postgres
+
+4) Apri pgAdmin e creare un nuovo Server (se necessario).
+
+	Dati richiesti da inserire su General:
+		- Nome:  Device Is It
+	Dati richiesti da inserire su Connection:
+		-  Host / name address: localhost
+		-  Port: 5432
+		-  Username: postgres
+		-  Password: postgres 
+	Salva
+		
+		
+5) Crea un nuovo Database sul Server appena creato 
+	Dati richiesti da inserire su General:
+		- Database: deviceIsIt  (importante: il nome del Database è key sensitive)
+	Salva 
+
+6) Clicca con il tasto destro sul Database appena creato e selezionare "Restore"
+7) Clicca su Filename e seleziona il file "DB_device_is_it.backup" che si trova in questa stessa cartella e poi su Restore
+8) Il Database è stato importato correttamente.  
+
+	
+
+	
+
+	
+
+
+
