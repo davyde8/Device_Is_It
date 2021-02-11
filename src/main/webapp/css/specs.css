@@ -1,0 +1,47 @@
+
+#titolo{
+	margin-top: 30px;
+	font-size: 45px;
+	font-family: Droid Serif;
+	font-style: italic;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
+
+.card {
+	box-shadow: 0 8px 15px 0 rgba(0,0,0,0.2); /*ombra fissa*/
+	transition: 0.3s;
+	height: 400px;   
+	max-width: 250px;
+	min-width: 200px;
+	margin-bottom:50px;
+	
+}
+
+.card:hover {
+	box-shadow: 0 8px 30px 0 rgba(0,0,0,0.2); /*effetto sull'ombra*/
+ }
+
+img {
+	
+	max-height: 200px;
+	margin-top:50px;
+	margin-left: 20%;
+ }
+ 
+.img-hover-zoom {
+	overflow: hidden; /*!-- nascondi l'mmagine che fuoriesce dal bordo */
+	border-radius: 30px 30px 0px 0px;
+}
+
+.img-hover-zoom--basic img { 
+	transition: transform .5s ease; /*tipo di transizione*/      
+}
+
+.img-hover-zoom--basic:hover img { /* applica l'evento del mouse */
+	transform: scale(1.3);  /*effetto : ingrandisci*/
+}
+
+
+

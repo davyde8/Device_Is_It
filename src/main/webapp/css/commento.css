@@ -1,0 +1,88 @@
+body {
+  background: linear-gradient(to right, rgb(249, 198, 85), #fff5d7);
+}
+
+#commenti{
+	margin-top: 12%;
+	margin-bottom: 8%;  
+}
+
+
+#post { /* bottone invio commento submit*/
+    margin: 10px;
+    padding: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: center;
+    background-color: #ecb21f;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #eee2c4; /* boh */
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 13px;
+    width: 50%
+}
+
+
+.comment {
+/*     border: 1px solid orange; bordo primo commento */
+    background-color: white ; /* colore primo commento*/
+    float: left;
+    border-radius: 5px;
+    padding-left: 40px;
+    padding-right: 30px;
+    padding-top: 10px
+}
+
+.comment h4,
+.comment span,
+.darker h4,
+.darker span {
+    display: inline
+}
+
+.comment p,
+.comment span,
+.darker p,
+.darker span {
+    color: rgb(173, 141, 85); /* colore testo commneto*/
+}
+
+h4 {
+	color: #8d641e;
+	font-weight: bold
+}
+
+h1,
+h3 {
+    color: orange;
+    font-weight: bold
+}
+
+label {
+    color: rgb(212, 208, 208)
+}
+
+#align-form {
+    margin-top: 20px
+}
+
+/* .form-group p a { */
+/*     color: white */
+/* } */
+
+.form-group input,
+.form-group textarea {
+    background-color: rgb(238, 239, 237); /* area testo nome e commento */
+/*     border: 1px solid #ecb21f;  bordo area testo commento */
+    border-radius: 12px
+}
+
+/* #formAggiungiCommento { */
+/*     border: 1px solid rgb(255, 147, 0); bordo form commento */
+/*     background-color: rgb(231, 163, 91); */
+/*     border-radius: 5px; */
+/*     padding: 20px; */
+/* } */
+
+

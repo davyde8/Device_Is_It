@@ -1,0 +1,77 @@
+.card {
+	box-shadow: 0 8px 15px 0 rgba(0,0,0,0.2); /*ombra fissa*/
+	transition: 0.3s; 
+	height: 500px;
+	border-radius:30px; 
+	max-width: 350px; 
+	min-width: 250px; 
+	height: 500px; 
+	margin-bottom:10px; 
+	margin-left: 5%;
+}
+
+.card:hover {
+	box-shadow: 0 8px 30px 0 rgba(0,0,0,0.2); /*effetto sull'ombra*/
+ }
+
+#fotoTrovate{	
+	height: 250px;
+	margin-top: 2%; 
+ 	margin-left: 2%; 
+ }
+ 
+.img-hover-zoom {
+	overflow: hidden; /*!-- nascondi l'mmagine che fuoriesce dal bordo */
+	border-radius: 30px 30px 0px 0px;
+}
+
+.img-hover-zoom--basic img { 
+	transition: transform .5s ease; /*tipo di transizione*/      
+}
+
+.img-hover-zoom--basic:hover img { /* applica l'evento del mouse */
+	transform: scale(1.1);  /*effetto : ingrandisci*/
+}
+
+ .header {
+	 background-color: #66b3ff;
+	 color: white;
+	 font-size: 2.5em;
+	 padding: 1rem;
+	 text-align: center;		 
+	 font-family: Droid Serif;
+	 font-style: italic;
+	 text-shadow: -0.5px 0 white, 0 0.5px white, 0.5px 0 white, 0 -0.5px white;
+	 color: white;
+}
+ .table-users {
+	 border: 1px solid gray;
+	 border-radius: 10px;
+	 box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1);
+	 max-width: calc(100% - 2em);
+	 margin: 1em auto;
+	 overflow: hidden;
+	 width: 800px;
+}
+ table {
+	 width: 100%;
+}
+ table td, table th {
+	 color: #4d4d4d;
+	 padding: 10px;
+}
+ table td {
+	 text-align: center;
+	 vertical-align: middle;
+}
+ table td:last-child {
+	 font-size: 0.95em;
+	 line-height: 1.4;
+	 text-align: center;
+}
+ table tr:nth-child(2n) {
+	 background-color: white;
+}
+ table tr:nth-child(2n+1) {
+	 background-color: #e6f2ff;
+}
